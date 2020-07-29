@@ -1,6 +1,12 @@
+.key-value {
+    color: #000000;
+    font-family: 'Courier New';
+    font-size: 11px;
+}
+
 # select_kv_pairs
 
-This is a short Python script demonstrating how to extract select <p style="font-family:'Courier New'">key:value</p> pairs from a dictionary.
+This is a short Python script demonstrating how to extract select <span class="key-value">key:value</span> pairs from a dictionary.
 
 # Script Operation
 

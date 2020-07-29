@@ -1,6 +1,6 @@
 # select_kv_pairs
 
-This is a short Python script demonstrating how to extract select <pre>key:value</pre> pairs from a dictionary.
+This is a short Python script demonstrating how to extract select <p style="font-family:'Courier New'">key:value</p> pairs from a dictionary.
 
 # Script Operation
 

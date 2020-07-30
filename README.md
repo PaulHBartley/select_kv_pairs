@@ -12,7 +12,7 @@ Next, we define a list of keys for the key:value pairs that we want to extract.
 ```python
   preferred_keys = ['a', 'c', 'e', 'g', 'i']
 ```
-Looping through the list, we generate a new dictionary with only the select key:value pairs that we wanted.
+Looping through the list generates a new dictionary with only the select key:value pairs that we wanted.
 ```python
   select_kv_pairs = dict((key, kv_pairs[key]) for key in preferred_keys)
 ```

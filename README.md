@@ -18,6 +18,6 @@ Looping through the list, we generate a new dictionary with only the select key:
 ```
 The resulting `select_kv_pairs` dictionary is shown below.
 ```python
-  {'a': 1, 'c': 3, 'e': 5, 'g': 7, 'i': 9}
+  {'a':1, 'c':3, 'e':5, 'g':7, 'i':9}
 ```
 

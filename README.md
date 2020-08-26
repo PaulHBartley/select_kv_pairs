@@ -14,7 +14,7 @@ Next, we define a list of keys for the key:value pairs that we want to extract.
 ```
 Looping through the list generates a new dictionary with only the select key:value pairs that we wanted.
 ```python
-  select_kv_pairs = dict((key, kv_pairs[key]) for key in preferred_keys)
+  select_kv_pairs = {(key, kv_pairs[key]) for key in preferred_keys}
 ```
 The resulting `select_kv_pairs` dictionary is shown below.
 ```python
